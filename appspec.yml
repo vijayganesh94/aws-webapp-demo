@@ -3,3 +3,4 @@ os: linux  # Placeholder (S3 deployments don't run on an OS instance)
 files:
   - source: /  # Source is the root of the CodeBuild artifact
     destination: /  # Destination is the root of your S3 bucket
+    

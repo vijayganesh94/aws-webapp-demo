@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS CodePipeline Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f6f4f8; /* Light blue-gray background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 2.5rem;
+            border-radius: 1rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 90%;
+            width: 500px;
+        }
+        h1 {
+            color: #1e3a8a; /* Dark blue */
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        p {
+            color: #374151; /* Gray */
+            font-size: 1.125rem;
+            line-height: 1.75;
+            margin-bottom: 2rem;
+        }
+        .button {
+            display: inline-block;
+            background-image: linear-gradient(to right, #3b82f6, #2563eb); /* Blue gradient */
+            color: #ffffff;
+            padding: 0.75rem 2rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            box-shadow: 0 4px 10px rgba(59, 130, 246, 0.4);
+        }
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(59, 130, 246, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello from AWS CodePipeline!</h1>
+        <p>This is a simple web application deployed automatically using AWS CodeCommit, CodeBuild, CodeDeploy, and CodePipeline.</p>
+        <a href="https://aws.amazon.com/codepipeline/" target="_blank" class="button">Learn more about CodePipeline</a>
+    </div>
+</body>
+</html>
